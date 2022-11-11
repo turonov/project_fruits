@@ -8,6 +8,8 @@ def get_frutis_name(data:str)->list:
         list of fruits names
     """
 
+data = open('fruits.csv').read()
 
+print(get_frutis_name(data))
 
     
